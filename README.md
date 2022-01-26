@@ -11,7 +11,7 @@ Ao final teremos um conjunto de microsserviços de exemplo que se comunicam de m
 
 ## Sobre a Aula
 
-Nesta aula vamos falarv sobre RabbitMQ, como ele nos ajuda ao trabalhar em uma aplicação com arquitetura de microsserviçoes, os conceitos necessários, e vamos demonstrar também uma aplicação .Net Core de exemplo onde 5 microserviços se comunicão utilizando arquitetura orientada a eventos (EDA).
+Nesta aula vamos falar sobre RabbitMQ, como ele nos ajuda ao trabalhar em uma aplicação com arquitetura de microsserviçoes, os conceitos necessários, e vamos demonstrar também uma aplicação .Net Core de exemplo onde 5 microserviços se comunicão utilizando arquitetura orientada a eventos (EDA).
 
 ## Link e informações de apoio
 
