@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  expertstore.ordering:
+    image: ${DOCKER_REGISTRY-}expertstoreordering
+    build:
+      context: .
+      dockerfile: src/ExpertStore.Ordering/Dockerfile
+  rabbit:
+    image: rabbitmq:3-management
+    ports:
+      - 15672:15672
+      - 5672:5672
+  paymentsprocessor:
+    image: ${DOCKER_REGISTRY-}paymentsprocessor
+    build:
+      context: .
+      dockerfile: src/PaymentsProcessor/Dockerfile
+
+
+  inventory:
+    image: ${DOCKER_REGISTRY-}inventory
+    build:
+      context: .
+      dockerfile: src/Inventory/Dockerfile
+
+
+  notifications:
+    image: ${DOCKER_REGISTRY-}notifications
+    build:
+      context: .
+      dockerfile: src/Notifications/Dockerfile
+
