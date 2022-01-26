@@ -6,26 +6,16 @@ Ao final teremos um conjunto de microsserviços de exemplo que se comunicam de m
 
 ## Executar a aplicação
 
-1. Basta baixar usando <br />`git clone https://github.com/rocketseat-experts-club/azure-publishing-dotnet-api-containirized-2021-11-08`
-2. Para rodar o projeto: com o Visual Studio 2019 instalado, basta abrir a solution do projeto e apertar F5
+1. Basta baixar usando <br />`https://github.com/rocketseat-experts-club/comunicacao-entre-micro-servicos-com-rabbitmq-e-dotnet-2022-01-26`
+2. Para rodar o projeto: com o Visual Studio 2019 ou 2022 instalado, basta abrir a solution do projeto e apertar F5
 
 ## Sobre a Aula
 
-Nesta aula vou te mostrar o passso a passo sobre como públicar aplicações .net conteinerizadas na Azure de maneira profissional usando a opção PaaS da Azure, o Azure Web App, aliada ao Container Registry da Azure.
+Nesta aula vamos falarv sobre RabbitMQ, como ele nos ajuda ao trabalhar em uma aplicação com arquitetura de microsserviçoes, os conceitos necessários, e vamos demonstrar também uma aplicação .Net Core de exemplo onde 5 microserviços se comunicão utilizando arquitetura orientada a eventos (EDA).
 
 ## Link e informações de apoio
 
-- Comando para criação do principal/RBAC:
-
-```
-az ad sp create-for-rbac --name "<name>" --role contributor --scopes /subscriptions/<subscription>/resourceGroups/<group> --sdk-auth
-```
-
-- Link Código do Pipeline:<br />
-https://github.com/rocketseat-experts-club/azure-publishing-dotnet-api-containirized-2021-11-08/blob/main/.github/workflows/deployment.yml
-
-- Link Azure:<br />
-https://portal.azure.com/
+Link do repositório original: https://github.com/rocketseat-experts-club/comunicacao-entre-micro-servicos-com-rabbitmq-e-dotnet-2022-01-26
 
 ## Expert
 
